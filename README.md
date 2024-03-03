@@ -2,4 +2,4 @@
 
 ** Only for Linux **
 
-A GTK3+ interface for mpv
+A GTK3+ playlist for mpv
