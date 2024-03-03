@@ -93,7 +93,7 @@ class FileChooserWindow(Gtk.Window):
         button6.connect("clicked", self.on_clear_clicked)
         grid.attach_next_to(button6, button2, Gtk.PositionType.BOTTOM, 1, 1)
 
-        button = Gtk.ToggleButton("Fullscreen")
+        button = Gtk.ToggleButton(label="Fullscreen")
         button.set_active(False)
         button.connect("toggled", self.fullscreen_button_toggled, "2")
         grid.attach_next_to(button, button6, Gtk.PositionType.BOTTOM, 1, 1)
